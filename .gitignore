@@ -1,2 +1,5 @@
 .vscode
 tokenizer
+.idea
+bin
+cmake-build-debug
