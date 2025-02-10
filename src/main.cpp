@@ -36,5 +36,14 @@ int main(int argc, char **argv) {
   }
   std::wcout << "===== TOKENS END ======" << std::endl;
 
+
+
+  std::wstring text = L"这是第一个句子。";
+  auto out = tokenizer.tokenize_full(text);
+  for (auto &x : out) {
+    std::wcout << x << " ";
+  }
+  std::wcout << std::endl;
+
   return 0;
 }
